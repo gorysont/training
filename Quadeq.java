@@ -44,7 +44,7 @@ public class Quadeq {
                         else {
                                 double x1 = Math.sqrt(-(c/a));
                                 double x2 = -(Math.sqrt(-(c/a)));
-                                System.out.println("x1 = " + x1 + "; " >
+                                System.out.println("x1 = " + x1 + "; " + "x2 = " + x2 + ".");
                         }
                 }
                 if (c == 0.0 && a != 0 && b != 0) {
@@ -88,7 +88,7 @@ public class Quadeq {
                         if (d >= 0) {
                         double x1 = (-b + Math.sqrt(d))/(2*a);
                         double x2 = (-b - Math.sqrt(d))/(2*a);
-                        System.out.println("x1 = " + x1 + "; " + "x2 = >
+                        System.out.println("x1 = " + x1 + "; " + "x2 = " + x2 + ".");
                         }
                 }
         }
